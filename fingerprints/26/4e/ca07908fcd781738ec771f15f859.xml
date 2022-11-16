@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-11-13 11:25:09.585 UTC</timestamp>
+  <md5sum>264eca07908fcd781738ec771f15f859</md5sum>
+  <fileName>Credential id=Agent-j name=ubuntu (agent-java-cred)</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1214.v1de940103927">
+      <timestamp>1668585341996</timestamp>
+      <nodeName>Agent_J</nodeName>
+      <timestamp0>1668583485174</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

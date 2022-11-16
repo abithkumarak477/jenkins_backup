@@ -1,0 +1,26 @@
+Started by user [8mha:////4GnL+l+oA3Q/XE/qiDb6wJ4SYUwQ9qLNs9wXnb5oVJfFAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/dLi1CL9xKTMkoz47NLcxCIA3iEsIsYAAAA=[0mAbith kumar
+Running as SYSTEM
+Building remotely on [8mha:////4GEE1XKllrOBzbPySAKVWaZJWGXGlD0SFkdtN9jVK7xKAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQifcf01LySeGcA1gAjtsYAAAA=[0mAgent_C (C-Label) in workspace /home/jenkins/jenkins-workspace/workspace/c-project
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/abithkumarak477/C-files.git
+ > git init /home/jenkins/jenkins-workspace/workspace/c-project # timeout=10
+Fetching upstream changes from https://github.com/abithkumarak477/C-files.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/abithkumarak477/C-files.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/abithkumarak477/C-files.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 28dc4aeb357fa7e31f14c37ce1de7612503615c5 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 28dc4aeb357fa7e31f14c37ce1de7612503615c5 # timeout=10
+Commit message: "added all c files"
+First time build. Skipping changelog.
+[c-project] $ /bin/sh -xe /tmp/jenkins5235572422613107062.sh
++ make
+/tmp/jenkins5235572422613107062.sh: 2: make: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

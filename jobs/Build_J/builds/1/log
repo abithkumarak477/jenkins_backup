@@ -1,0 +1,73 @@
+Started by user [8mha:////4GnL+l+oA3Q/XE/qiDb6wJ4SYUwQ9qLNs9wXnb5oVJfFAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/dLi1CL9xKTMkoz47NLcxCIA3iEsIsYAAAA=[0mAbith kumar
+Running as SYSTEM
+Building remotely on [8mha:////4EKccT2XOxf0z2KtFxPuXCMTHDTPGz553w2b/U9zMflKAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQifcf01LySeC8Acrj/z8YAAAA=[0mAgent_J (J-Label) in workspace /home/jenkins/workspace/Build_J
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/abithkumarak477/java-code.git
+ > git init /home/jenkins/workspace/Build_J # timeout=10
+Fetching upstream changes from https://github.com/abithkumarak477/java-code.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/abithkumarak477/java-code.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/abithkumarak477/java-code.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 4179219b314602cf886c639d337056af82e126e5 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4179219b314602cf886c639d337056af82e126e5 # timeout=10
+Commit message: "Update Jenkins.java"
+First time build. Skipping changelog.
+[Build_J] $ mvn clean install
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mcom.amitverma:jenkins-git-integration[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding jenkins-git-integration Maven Webapp 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mjenkins-git-integration[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/jenkins/workspace/Build_J/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mjenkins-git-integration[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mjenkins-git-integration[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mjenkins-git-integration[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/jenkins/workspace/Build_J/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mjenkins-git-integration[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mjenkins-git-integration[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:2.2:war[m [1m(default-war)[m @ [36mjenkins-git-integration[0;1m ---[m
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [jenkins-git-integration] in [/home/jenkins/workspace/Build_J/target/jenkins-git-integration]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Copying webapp resources [/home/jenkins/workspace/Build_J/src/main/webapp]
+[[1;34mINFO[m] Webapp assembled in [70 msecs]
+[[1;34mINFO[m] Building war: /home/jenkins/workspace/Build_J/target/jenkins-git-integration.war
+[[1;34mINFO[m] WEB-INF/web.xml already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mjenkins-git-integration[0;1m ---[m
+[[1;34mINFO[m] Installing /home/jenkins/workspace/Build_J/target/jenkins-git-integration.war to /home/ubuntu/.m2/repository/com/amitverma/jenkins-git-integration/0.0.1-SNAPSHOT/jenkins-git-integration-0.0.1-SNAPSHOT.war
+[[1;34mINFO[m] Installing /home/jenkins/workspace/Build_J/pom.xml to /home/ubuntu/.m2/repository/com/amitverma/jenkins-git-integration/0.0.1-SNAPSHOT/jenkins-git-integration-0.0.1-SNAPSHOT.pom
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  3.034 s
+[[1;34mINFO[m] Finished at: 2022-11-15T11:36:34Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Triggering a new build of [8mha:////4FFLxi/ypGIQsS9vo5BTYd1B3Q94bAp6PjeM3p+1/3KYAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JH2X1IKc/Mp4L30A6n6N4sMAAAA=[0mDeploy_J
+Finished: SUCCESS

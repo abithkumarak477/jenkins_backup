@@ -1,0 +1,76 @@
+Started by user [8mha:////4GnL+l+oA3Q/XE/qiDb6wJ4SYUwQ9qLNs9wXnb5oVJfFAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/dLi1CL9xKTMkoz47NLcxCIA3iEsIsYAAAA=[0mAbith kumar
+Running as SYSTEM
+Building remotely on [8mha:////4GEE1XKllrOBzbPySAKVWaZJWGXGlD0SFkdtN9jVK7xKAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQifcf01LySeGcA1gAjtsYAAAA=[0mAgent_C (C-Label) in workspace /home/jenkins/jenkins-workspace/workspace/c-project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/jenkins/jenkins-workspace/workspace/c-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/abithkumarak477/C-files.git # timeout=10
+Fetching upstream changes from https://github.com/abithkumarak477/C-files.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/abithkumarak477/C-files.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 28dc4aeb357fa7e31f14c37ce1de7612503615c5 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 28dc4aeb357fa7e31f14c37ce1de7612503615c5 # timeout=10
+Commit message: "added all c files"
+ > git rev-list --no-walk 28dc4aeb357fa7e31f14c37ce1de7612503615c5 # timeout=10
+[c-project] $ /bin/sh -xe /tmp/jenkins3221491757284387387.sh
++ make
+gcc -c  main.c
+main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | main () {
+      | ^~~~
+main.c: In function ‘main’:
+main.c:3:1: warning: implicit declaration of function ‘biggest2’ [-Wimplicit-function-declaration]
+    3 | biggest2();
+      | ^~~~~~~~
+main.c:4:1: warning: implicit declaration of function ‘factorial’ [-Wimplicit-function-declaration]
+    4 | factorial();
+      | ^~~~~~~~~
+main.c:5:1: warning: implicit declaration of function ‘reverse’ [-Wimplicit-function-declaration]
+    5 | reverse();
+      | ^~~~~~~
+main.c:6:1: warning: implicit declaration of function ‘pallindrome’ [-Wimplicit-function-declaration]
+    6 | pallindrome();
+      | ^~~~~~~~~~~
+main.c:7:1: warning: implicit declaration of function ‘biggest3’ [-Wimplicit-function-declaration]
+    7 | biggest3();
+      | ^~~~~~~~
+main.c:8:1: warning: implicit declaration of function ‘sort’ [-Wimplicit-function-declaration]
+    8 | sort();
+      | ^~~~
+main.c:9:1: warning: implicit declaration of function ‘sum’ [-Wimplicit-function-declaration]
+    9 | sum();
+      | ^~~
+gcc -c big2.c
+big2.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | biggest2()
+      | ^~~~~~~~
+gcc -c big3.c
+big3.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    3 | biggest3() {
+      | ^~~~~~~~
+gcc -c fact.c
+fact.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | factorial() {
+      | ^~~~~~~~~
+gcc -c rev.c
+rev.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    3 | reverse() {
+      | ^~~~~~~
+gcc -c pal.c
+pal.c:6:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    6 | pallindrome()
+      | ^~~~~~~~~~~
+gcc -c sort.c
+sort.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | sort(){
+      | ^~~~
+gcc -c sum.c
+sum.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | sum() {
+      | ^~~
+gcc -o AKR.exe main.o big2.o big3.o fact.o rev.o pal.o sort.o sum.o
+Finished: SUCCESS

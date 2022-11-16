@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-11-13 10:51:00.948 UTC</timestamp>
+  <md5sum>58f727c17860c417f295bfbdfe401940</md5sum>
+  <fileName>Credential id=agent-cred name=jenkins (agent credentials)</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1214.v1de940103927">
+      <timestamp>1668585342045</timestamp>
+      <nodeName>Agent_C</nodeName>
+      <timestamp0>1668583485175</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

@@ -1,0 +1,20 @@
+Started by user [8mha:////4GnL+l+oA3Q/XE/qiDb6wJ4SYUwQ9qLNs9wXnb5oVJfFAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/dLi1CL9xKTMkoz47NLcxCIA3iEsIsYAAAA=[0mAbith kumar
+Running as SYSTEM
+Building remotely on [8mha:////4GEE1XKllrOBzbPySAKVWaZJWGXGlD0SFkdtN9jVK7xKAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQifcf01LySeGcA1gAjtsYAAAA=[0mAgent_C (C-Label) in workspace /home/jenkins/jenkins-workspace/workspace/disk
+[disk] $ /bin/sh -xe /tmp/jenkins13299992841606412904.sh
++ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       7.6G  2.5G  5.2G  32% /
+devtmpfs        477M     0  477M   0% /dev
+tmpfs           484M     0  484M   0% /dev/shm
+tmpfs            97M  832K   96M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           484M     0  484M   0% /sys/fs/cgroup
+/dev/loop0       26M   26M     0 100% /snap/amazon-ssm-agent/5656
+/dev/loop1       56M   56M     0 100% /snap/core18/2566
+/dev/loop2       64M   64M     0 100% /snap/core20/1623
+/dev/loop3       68M   68M     0 100% /snap/lxd/22753
+/dev/loop4       48M   48M     0 100% /snap/snapd/16778
+/dev/xvda15     105M  5.2M  100M   5% /boot/efi
+tmpfs            97M     0   97M   0% /run/user/1001
+Finished: SUCCESS
